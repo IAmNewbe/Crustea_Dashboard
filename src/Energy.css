@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* margin: 0 auto; */
+    margin: auto;
+    padding: 0;
+    position: relative;
+    /* max-width: 1200px; */
+}
+
+button {
+    padding: 5px;
+    background: #05546A;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    color: #05546A;
+    border: 1px solid #05546A;
+    background: white;
+}
+
+input{
+    border: 1px solid #05546A;
+}
+/* .Energy {
+    max-width: 1000px;
+    padding: 15px 15px;
+} */
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.widget-energy {
+    margin: 13px;
+    padding: 23px;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow:  14px 14px 70px #e0e0e0,
+             -14px -14px 70px #ffffff;
+    text-align: center;
+}
+
+.linechart {
+    margin: 1px;
+    max-width: 800px;
+    height: 340px;
+    /* flex: 0 0 680px; */
+}
+
+.timeseries{
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.widget-cost {
+    margin: 13px;
+    padding: 23px;
+    border-radius: 8px;
+    width: 200px;
+    color: #ffffff;
+    /* box-shadow:  14px 14px 70px #e0e0e0,
+             -14px -14px 70px #ffffff; */
+}
+
+.widget-cost:nth-child(1)
+{
+    background: #0684a7;
+}
+
+.widget-cost:nth-child(2){
+    /* background: #658C64; */
+    background: #ACCB37;
+}
+
+.price{
+    margin: 13px;
+    padding: 23px;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow:  14px 14px 70px #e0e0e0,
+             -14px -14px 70px #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.KwH-cost{
+    max-width: 100px;
+}
+
+
+
+.price-widget {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.reset-KwH {
+    margin: 13px;
+    padding: 8px;
+   
+    border: #ffffff;
+    border-radius: 9px;
+    box-shadow:  14px 14px 70px #e0e0e0,
+             -14px -14px 70px #ffffff;
+} 
+
+@media only screen and (max-width: 800px) {
+    .feature {
+        display: inline-flex;
+    }
+}

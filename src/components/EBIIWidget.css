@@ -1,0 +1,22 @@
+
+.widget {
+    margin: 13px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 8px;
+    width: 150px;
+    box-shadow:  14px 14px 70px #e0e0e0,
+             -14px -14px 70px #ffffff;
+    text-align: center;
+}
+
+.round {
+    padding-top: 25px;
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+    /* width: 120px; */
+    margin: 3px auto;
+    text-align: center 
+}

@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Montserrat'; */
+}
+
+body {
+    /* margin: 0 auto; */
+    margin: auto;
+    padding: 0;
+    position: relative;
+    /* max-width: 1200px; */
+  }
+
+.EBII {
+    margin: 3px auto;
+    width: 100%;
+}
+.tools {
+    margin: 3px 4px;
+}
+
+.tools-feature{
+    margin: 2px;
+    border-radius: 8px;
+    background: rgb(5,84,106);
+    /* background: linear-gradient(180deg, rgba(5,84,106,1) 13%, rgba(23,97,117,1) 31%, rgba(38,107,126,1) 49%, rgba(238,244,245,1) 93%, rgba(255,255,255,1) 100%); */
+}
+
+.line {
+    border-top: 2px solid #05546A;
+    margin-bottom: 4px;
+}
+
+
